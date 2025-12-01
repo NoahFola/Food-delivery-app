@@ -1,0 +1,135 @@
+import 'package:flutter/material.dart';
+
+class MockHomeData {
+  static final List<Map<String, dynamic>> categories = [
+    {'name': 'Pizza', 'icon': Icons.local_pizza, 'image': 'foods/pizza.jpg'},
+    {'name': 'Burger', 'icon': Icons.lunch_dining, 'image': 'foods/burger.jpg'},
+    {'name': 'Sushi', 'icon': Icons.set_meal, 'image': 'foods/sushi.jpg'},
+    {'name': 'Taco', 'icon': Icons.fastfood, 'image': 'foods/taco.jpg'},
+    {'name': 'Salad', 'icon': Icons.grass, 'image': 'foods/salad.jpg'},
+    {'name': 'Donut', 'icon': Icons.donut_large, 'image': 'foods/donut.jpg'},
+    {'name': 'Coffee', 'icon': Icons.coffee, 'image': 'foods/coffee.jpg'},
+  ];
+
+  static final List<Map<String, dynamic>> restaurants = [
+    {
+      'name': 'Bella Italia',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.5,
+      'time': '15-20 min',
+      'tags': ['Italian', 'Pizza'],
+    },
+    {
+      'name': 'The Burger Joint',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.7,
+      'time': '20-25 min',
+      'tags': ['Burger', 'Fast Food'],
+    },
+    {
+      'name': 'Sushi Master',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.8,
+      'time': '30-40 min',
+      'tags': ['Japanese', 'Sushi'],
+    },
+    {
+      'name': 'Taco Fiesta',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.3,
+      'time': '15-25 min',
+      'tags': ['Mexican', 'Tacos'],
+    },
+    {
+      'name': 'Green Bowl',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.6,
+      'time': '10-15 min',
+      'tags': ['Healthy', 'Salad'],
+    },
+    {
+      'name': 'Sweet Treats',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.9,
+      'time': '10-20 min',
+      'tags': ['Dessert', 'Donuts'],
+    },
+    {
+      'name': 'Morning Brew',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.7,
+      'time': '5-10 min',
+      'tags': ['Coffee', 'Breakfast'],
+    },
+    {
+      'name': 'Spicy Curry',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.4,
+      'time': '25-35 min',
+      'tags': ['Indian', 'Curry'],
+    },
+    {
+      'name': 'Noodle House',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.5,
+      'time': '20-30 min',
+      'tags': ['Asian', 'Noodles'],
+    },
+    {
+      'name': 'Grill Master',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.6,
+      'time': '30-45 min',
+      'tags': ['BBQ', 'Grill'],
+    },
+    {
+      'name': 'Vegan Vibes',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.8,
+      'time': '15-25 min',
+      'tags': ['Vegan', 'Healthy'],
+    },
+    {
+      'name': 'Ocean Catch',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.5,
+      'time': '25-40 min',
+      'tags': ['Seafood', 'Fish'],
+    },
+    {
+      'name': 'Pancake Palace',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.7,
+      'time': '15-20 min',
+      'tags': ['Breakfast', 'Pancakes'],
+    },
+    {
+      'name': 'Sandwich Hub',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.3,
+      'time': '10-15 min',
+      'tags': ['Sandwich', 'Lunch'],
+    },
+    {
+      'name': 'Dim Sum Delight',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.6,
+      'time': '30-40 min',
+      'tags': ['Chinese', 'Dim Sum'],
+    },
+    {
+      'name': 'BBQ Barn',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.8,
+      'time': '35-50 min',
+      'tags': ['American', 'BBQ'],
+    },
+    {
+      'name': 'Smoothie Spot',
+      'image': 'dishes/dish.jpg',
+      'rating': 4.9,
+      'time': '5-10 min',
+      'tags': ['Drinks', 'Smoothie'],
+    },
+  ];
+}
